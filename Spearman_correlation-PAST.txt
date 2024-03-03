@@ -1,0 +1,17 @@
+##### PAST - Spearman's rank correlation #####
+# Author: Stephania L. Tsola
+# Date: March 2024
+# PAST version: 4.01
+# PAST reference: Hammer, Ø., Harper, D.A.T., and Ryan, P.D. (2001) PAST: Paleontological statistics software package for education and data analysis. Palaentologia Electron 4: 1–9.
+
+
+After extracting the PCoA scores during the microeco analysis of the mcrA sequencing results (see "mcrA_analysis-microeco.R"), 
+I created an excel file that contained sample information and information on environmental parameters: sampling depth,
+total DMS degradation and total methane and CO2 production of the incubated samples, and grain size for each samplling site (see "River_mcrA_PCoA_Scores.csv").
+
+Once the table was created, it was copied into PAST, with the sample information being in the "Name" column and PCo1 in column A, Pco2 in B etc.
+All data were selected and in the PAST menu I clicked on "Univariate --> Correlation" and specified in the Correlation table that I was interested in Spearman's rs.
+In the "Table format" I used both "Permutation p" and "Statistic" and copied both tables into excel.
+
+Continuing in excel, I created a table containing the first two PCoA scores and their Spearman's rank correlation result against each environmental parameter.
+The "Permutaton p" was included as an asterisk next to the correlation result. 
