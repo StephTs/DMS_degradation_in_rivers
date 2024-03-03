@@ -2,6 +2,8 @@
 
 Code for the paper:
 Methanomethylovorans are the dominant dimethylsulfide-degrading methanogens in gravel and sandy riverbed sediments
+<a href="https://zenodo.org/doi/10.5281/zenodo.10775199"><img src="https://zenodo.org/badge/765738948.svg" alt="DOI"></a>
+
 
 This repo contains the code for analysing the amplicon data presented in the paper using QIIME2 as well as code for creating a custom _mcrA_ database. Furthermore, it has R scripts detailing the bioinformatic analysis of the amplicon data and how the various graphs were made using ggplot2. Lastly, program usage information is given for PAST (used for the Spearman correlation analysis).
 
